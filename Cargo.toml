@@ -1,0 +1,17 @@
+[workspace]
+resolver = "2"
+members = ["crates/optim",
+    "crates/tensor",
+    "crates/draw",
+    "crates/formula",
+    "example/tensor-example",
+    "example/draw-example",
+    "example/formula-draw-example",
+
+    # 未来将添加更多包：
+    # "crates/autograd",
+    # "crates/nn",
+    # "crates/datasets",
+    # "crates/utils",
+    ]
+

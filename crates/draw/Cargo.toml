@@ -1,0 +1,10 @@
+[package]
+name = "draw"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tensor = { path = "../tensor" }
+plotters = { version = "0.3", default-features = false, features = ["bitmap_backend", "svg_backend", "all_series", "ab_glyph"] }
+minifb = "0.28"
+dejavu = "2.37"

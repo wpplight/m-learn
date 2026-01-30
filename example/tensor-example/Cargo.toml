@@ -1,0 +1,9 @@
+[package]
+name = "tensor-example"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tensor = { path = "../../crates/tensor" }
+formula = { path = "../../crates/formula" }
+draw = { path = "../../crates/draw" }
